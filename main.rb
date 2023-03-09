@@ -1,5 +1,3 @@
-puts "Cash Register"
-print "Please enter value: "
-value = gets.chomp
+require './src/app/app'
 
-puts "The value is #{value}"
+App.run
